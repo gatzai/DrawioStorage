@@ -1,101 +1,128 @@
-<mxfile host="www.draw.io" modified="2020-03-03T17:26:58.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="k-jYY895PCTgIrFtllA9" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-04T11:50:42.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="WE1YUxevs8snAfuqirPe" version="12.7.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="917" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="917" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-1" value="MainGame" style="html=1;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-1" value="MainGame" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="180" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-3" value="FactoryManager" style="html=1;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-3" value="FactoryManager" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="620" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-8" value="AbsFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-8" value="AbsFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="280" width="140" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZAulG_bHDL-cS3uMdSec-8">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZAulG_bHDL-cS3uMdSec-8" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-13" target="ZAulG_bHDL-cS3uMdSec-8">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-13" target="ZAulG_bHDL-cS3uMdSec-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-13" value="ItemFac" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-13" value="ItemFac" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="480" width="140" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-14" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZAulG_bHDL-cS3uMdSec-13">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-14" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZAulG_bHDL-cS3uMdSec-13" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-16" target="ZAulG_bHDL-cS3uMdSec-8">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-16" target="ZAulG_bHDL-cS3uMdSec-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-16" value="CreatureFac" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-16" value="CreatureFac" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="480" width="140" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-17" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZAulG_bHDL-cS3uMdSec-16">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-17" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZAulG_bHDL-cS3uMdSec-16" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-3" target="ZAulG_bHDL-cS3uMdSec-13">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-3" target="ZAulG_bHDL-cS3uMdSec-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="10" y="630" as="sourcePoint" />
             <mxPoint x="170" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-3" target="ZAulG_bHDL-cS3uMdSec-16">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-3" target="ZAulG_bHDL-cS3uMdSec-16" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="20" y="640" as="sourcePoint" />
             <mxPoint x="180" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-21" value="ActorManager" style="html=1;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-21" value="ActorManager" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="410" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-22" value="BattleManager" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="530" width="110" height="50" as="geometry" />
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-22" value="BattleManager" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="410" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-23" value="ActorController" style="html=1;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-23" value="ActorController" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="530" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-24" value="WeaponManager" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="420" width="110" height="50" as="geometry" />
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-24" value="WeaponManager" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="532" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-25" value="StateManager" style="html=1;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-25" value="StateManager" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="410" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-27" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-22" target="ZAulG_bHDL-cS3uMdSec-21">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-27" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-22" target="ZAulG_bHDL-cS3uMdSec-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="530" as="sourcePoint" />
             <mxPoint x="740" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-28" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-23" target="ZAulG_bHDL-cS3uMdSec-21">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-28" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-23" target="ZAulG_bHDL-cS3uMdSec-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="540" as="sourcePoint" />
             <mxPoint x="711.0526315789473" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-29" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-24" target="ZAulG_bHDL-cS3uMdSec-21">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-29" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-24" target="ZAulG_bHDL-cS3uMdSec-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="550" as="sourcePoint" />
             <mxPoint x="721.0526315789473" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-30" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-25" target="ZAulG_bHDL-cS3uMdSec-21">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-30" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-25" target="ZAulG_bHDL-cS3uMdSec-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="720" y="560" as="sourcePoint" />
             <mxPoint x="731.0526315789473" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-31" value="ItemManager" style="html=1;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-31" value="ItemManager" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="310" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-32" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-31" target="ZAulG_bHDL-cS3uMdSec-21">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-32" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="ZAulG_bHDL-cS3uMdSec-31" target="ZAulG_bHDL-cS3uMdSec-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="451.5625" as="sourcePoint" />
             <mxPoint x="660" y="448.4375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZAulG_bHDL-cS3uMdSec-33" value="现在的问题：&lt;br&gt;ActorManager出来比较慢，导致其组件ItemManager很慢出现" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="1">
+        <mxCell id="ZAulG_bHDL-cS3uMdSec-33" value="现在的问题：&lt;br&gt;ActorManager出来比较慢，导致其组件ItemManager很慢出现" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="1" vertex="1">
           <mxGeometry x="860" y="300" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-1" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" edge="1" parent="1" source="lxRsSnE1H8E0c15Uz4l2-2" target="ZAulG_bHDL-cS3uMdSec-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="616" y="650" as="sourcePoint" />
+            <mxPoint x="600" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-2" value="WeaponController" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="650" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-3" value="WeaponData" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="504.15" y="768" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-4" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" edge="1" source="lxRsSnE1H8E0c15Uz4l2-3" parent="1" target="lxRsSnE1H8E0c15Uz4l2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600.15" y="768" as="sourcePoint" />
+            <mxPoint x="646" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-5" value="WeaponController&lt;br&gt;......" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="650" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-6" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" edge="1" parent="1" source="lxRsSnE1H8E0c15Uz4l2-5" target="ZAulG_bHDL-cS3uMdSec-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="597.7118644067796" y="660" as="sourcePoint" />
+            <mxPoint x="632.2881355932204" y="592" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
