@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2020-03-04T11:50:42.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="WE1YUxevs8snAfuqirPe" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-11T04:53:24.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="8CrOZ3cuWYkz-kFmZZMv" version="12.8.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="917" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="915" dy="1634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZAulG_bHDL-cS3uMdSec-1" value="MainGame" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="180" width="110" height="50" as="geometry" />
+          <mxGeometry x="700" y="-20" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZAulG_bHDL-cS3uMdSec-3" value="FactoryManager" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="620" width="110" height="50" as="geometry" />
@@ -97,32 +97,68 @@
         <mxCell id="ZAulG_bHDL-cS3uMdSec-33" value="现在的问题：&lt;br&gt;ActorManager出来比较慢，导致其组件ItemManager很慢出现" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" parent="1" vertex="1">
           <mxGeometry x="860" y="300" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="lxRsSnE1H8E0c15Uz4l2-1" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" edge="1" parent="1" source="lxRsSnE1H8E0c15Uz4l2-2" target="ZAulG_bHDL-cS3uMdSec-24">
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-1" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" parent="1" source="lxRsSnE1H8E0c15Uz4l2-2" target="ZAulG_bHDL-cS3uMdSec-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="616" y="650" as="sourcePoint" />
             <mxPoint x="600" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lxRsSnE1H8E0c15Uz4l2-2" value="WeaponController" style="html=1;" vertex="1" parent="1">
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-2" value="WeaponController" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="650" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lxRsSnE1H8E0c15Uz4l2-3" value="WeaponData" style="html=1;" vertex="1" parent="1">
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-3" value="WeaponData" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="504.15" y="768" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lxRsSnE1H8E0c15Uz4l2-4" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" edge="1" source="lxRsSnE1H8E0c15Uz4l2-3" parent="1" target="lxRsSnE1H8E0c15Uz4l2-2">
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-4" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" parent="1" source="lxRsSnE1H8E0c15Uz4l2-3" target="lxRsSnE1H8E0c15Uz4l2-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600.15" y="768" as="sourcePoint" />
             <mxPoint x="646" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lxRsSnE1H8E0c15Uz4l2-5" value="WeaponController&lt;br&gt;......" style="html=1;" vertex="1" parent="1">
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-5" value="WeaponController&lt;br&gt;......" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="650" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lxRsSnE1H8E0c15Uz4l2-6" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" edge="1" parent="1" source="lxRsSnE1H8E0c15Uz4l2-5" target="ZAulG_bHDL-cS3uMdSec-24">
+        <mxCell id="lxRsSnE1H8E0c15Uz4l2-6" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#00CC00;" parent="1" source="lxRsSnE1H8E0c15Uz4l2-5" target="ZAulG_bHDL-cS3uMdSec-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="597.7118644067796" y="660" as="sourcePoint" />
             <mxPoint x="632.2881355932204" y="592" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-1" value="MapsManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-2" value="MapGenerator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-3" value="RoomGenerator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-4" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="ZAulG_bHDL-cS3uMdSec-1" target="mNpqKFfUTkz8U5cucoMy-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="140" as="sourcePoint" />
+            <mxPoint x="900" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-5" value="PlayerActorManager" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-7" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" target="mNpqKFfUTkz8U5cucoMy-8" parent="1" source="ZAulG_bHDL-cS3uMdSec-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="89.99756097560967" as="sourcePoint" />
+            <mxPoint x="840" y="108.9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-8" value="PMVC" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="108.9" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-9" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="mNpqKFfUTkz8U5cucoMy-1" target="ZAulG_bHDL-cS3uMdSec-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="7.978723404255334" as="sourcePoint" />
+            <mxPoint x="940" y="-7.340425531914889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mNpqKFfUTkz8U5cucoMy-10" value="MapsManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
