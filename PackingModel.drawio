@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2020-06-03T01:36:06.597Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="13.1.13" etag="cPqHo5xCELAbzp4A_3hk" type="github"><diagram id="Mpa9sg7Nn9rlr4f_uKkr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-03T04:14:17.265Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="1MXrQbUDeY4KMSf1G3XU" version="13.1.13" type="github">
+  <diagram id="Mpa9sg7Nn9rlr4f_uKkr" name="Page-1">
+    <mxGraphModel dx="753" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-2" target="DanDxNjD7Hj-y8FPQcQa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-2" value="EffectBundleTool&amp;nbsp; Init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-3" target="DanDxNjD7Hj-y8FPQcQa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-3" value="GetEtcEffectList（）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-9" target="DanDxNjD7Hj-y8FPQcQa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-12" value="TREU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DanDxNjD7Hj-y8FPQcQa-11">
+          <mxGeometry x="-0.24" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-9" value="BuildSomeNormalEffect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-5" target="DanDxNjD7Hj-y8FPQcQa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-5" value="PostProcess&lt;br&gt;（ShaderDependencies干了什么）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-7" value="ProcessEnding&lt;br&gt;（还原材质，包括：shader, MainText,MaskText，这些对应的字符串都映射在m_ResourcesInfo里）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="950" width="174" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-13" value="m_ResourcesInfo&lt;br&gt;Dictionary&amp;lt;string, List&amp;lt;string&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="810" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-14" target="DanDxNjD7Hj-y8FPQcQa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-14" value="&lt;span style=&quot;text-align: left&quot;&gt;WriteEffectJson&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="880" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-18" value="Effect打包流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
