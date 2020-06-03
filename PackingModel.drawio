@@ -1,61 +1,169 @@
-<mxfile host="app.diagrams.net" modified="2020-06-03T04:47:16.205Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="_sLjGRvWTUqIysgzBDA2" version="13.1.13" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-03T06:04:21.410Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="CLx7G17RXRATOFYJiCZK" version="13.1.13" type="github">
   <diagram id="Mpa9sg7Nn9rlr4f_uKkr" name="Page-1">
-    <mxGraphModel dx="753" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1580" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-2" target="DanDxNjD7Hj-y8FPQcQa-3">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DanDxNjD7Hj-y8FPQcQa-2" target="DanDxNjD7Hj-y8FPQcQa-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-2" value="EffectBundleTool&amp;nbsp; Init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-2" value="EffectBundleTool&amp;nbsp; Init" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-3" target="DanDxNjD7Hj-y8FPQcQa-9">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DanDxNjD7Hj-y8FPQcQa-3" target="DanDxNjD7Hj-y8FPQcQa-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-3" value="GetEtcEffectList（）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-3" value="GetEtcEffectList（）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-9" target="DanDxNjD7Hj-y8FPQcQa-5">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DanDxNjD7Hj-y8FPQcQa-9" target="DanDxNjD7Hj-y8FPQcQa-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-12" value="TREU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DanDxNjD7Hj-y8FPQcQa-11">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-12" value="TREU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DanDxNjD7Hj-y8FPQcQa-11" vertex="1" connectable="0">
           <mxGeometry x="-0.24" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-9" value="BuildSomeNormalEffect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-9" value="BuildSomeNormalEffect" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-5" target="DanDxNjD7Hj-y8FPQcQa-7">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DanDxNjD7Hj-y8FPQcQa-5" target="DanDxNjD7Hj-y8FPQcQa-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-5" target="DanDxNjD7Hj-y8FPQcQa-20">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="DanDxNjD7Hj-y8FPQcQa-5" target="DanDxNjD7Hj-y8FPQcQa-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-5" value="PostProcess" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-5" value="PostProcess" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-7" value="ProcessEnding&lt;br&gt;（还原材质，包括：shader, MainText,MaskText，这些对应的字符串都映射在m_ResourcesInfo里）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-7" value="ProcessEnding&lt;br&gt;（还原材质，包括：shader, MainText,MaskText，这些对应的字符串都映射在m_ResourcesInfo里）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="267" y="950" width="174" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-13" value="m_ResourcesInfo&lt;br&gt;Dictionary&amp;lt;string, List&amp;lt;string&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-13" value="m_ResourcesInfo&lt;br&gt;Dictionary&amp;lt;string, List&amp;lt;string&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="810" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-14" target="DanDxNjD7Hj-y8FPQcQa-5">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DanDxNjD7Hj-y8FPQcQa-14" target="DanDxNjD7Hj-y8FPQcQa-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-14" value="&lt;span style=&quot;text-align: left&quot;&gt;WriteEffectJson&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-14" value="&lt;span style=&quot;text-align: left&quot;&gt;WriteEffectJson&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="525" y="900" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-18" value="Effect打包流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-18" value="Effect打包流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="80" y="330" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="DanDxNjD7Hj-y8FPQcQa-20" target="DanDxNjD7Hj-y8FPQcQa-14">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" parent="1" source="DanDxNjD7Hj-y8FPQcQa-20" target="DanDxNjD7Hj-y8FPQcQa-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DanDxNjD7Hj-y8FPQcQa-20" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;（ShaderDependencies干了什么）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DanDxNjD7Hj-y8FPQcQa-20" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;（ShaderDependencies干了什么）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="830" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-1" value="AssetBase" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="470" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-2" value="«interface»&lt;br&gt;&lt;b&gt;IAssetBase&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-1" target="BACJ4aKY7CG4W1GbBQ7J-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-320" y="450" as="sourcePoint" />
+            <mxPoint x="-160" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-4" value="AssetBuildTool" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="470" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-5" value="EffectBundleTool" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="680" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-5" target="BACJ4aKY7CG4W1GbBQ7J-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-430" y="420" as="sourcePoint" />
+            <mxPoint x="-270" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-7" value="LayoutBundleTool" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="680" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-7" target="BACJ4aKY7CG4W1GbBQ7J-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-280" y="470" as="sourcePoint" />
+            <mxPoint x="-402.1875" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-9" value="ModelBundleTool" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="685" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-9" target="BACJ4aKY7CG4W1GbBQ7J-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-130" y="475" as="sourcePoint" />
+            <mxPoint x="-252.1875" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-11" value="Scene3DBundleTool" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="685" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-12" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-11" target="BACJ4aKY7CG4W1GbBQ7J-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-10" y="475" as="sourcePoint" />
+            <mxPoint x="-132.1875" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-23" target="BACJ4aKY7CG4W1GbBQ7J-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-587.81" y="570" as="sourcePoint" />
+            <mxPoint x="-709.9975" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-19" value="Scene2DBundleTool" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="620" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-20" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-19" target="BACJ4aKY7CG4W1GbBQ7J-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-460" y="620" as="sourcePoint" />
+            <mxPoint x="-582.1875" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-23" value="省略写法&lt;br&gt;SoundBundleTool&lt;br&gt;SpineBundleTool&lt;br&gt;ShaderBundleTool&lt;br&gt;StoryBundleTool&lt;br&gt;CommonBundleTool&lt;br&gt;&lt;br&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="640" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-24" target="BACJ4aKY7CG4W1GbBQ7J-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-24" value="BuildAssetBundleEditors" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="300" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-25" value="BundleGroup" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="410" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-28" value="AssetsBundleHelper&lt;br&gt;打包选中资源" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-30" target="BACJ4aKY7CG4W1GbBQ7J-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-30" value="&lt;span style=&quot;text-align: left&quot;&gt;BundleDependenciesEditor&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="300" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-31" value="EditorWindow" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BACJ4aKY7CG4W1GbBQ7J-32" target="BACJ4aKY7CG4W1GbBQ7J-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-32" value="BundleGroupEditor" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-37" value="&lt;span style=&quot;text-align: left&quot;&gt;GenerateMaterials&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-39" value="&lt;span style=&quot;text-align: left&quot;&gt;SceneObjsConfigGenerator&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="180" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-41" value="&lt;span style=&quot;text-align: left&quot;&gt;SpecialBundleTool&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BACJ4aKY7CG4W1GbBQ7J-42" value="UnityBuildTool" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="380" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
