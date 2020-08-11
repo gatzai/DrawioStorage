@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-04T12:06:13.126Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="bAloZXRQze-Sd7Qp3c-8" version="13.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-11T09:54:21.863Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="C_QH02FySeLMcD-iep2P" version="13.5.8" type="github">
   <diagram id="r9bfGYGLmaGkgBxddyXr" name="Page-1">
-    <mxGraphModel dx="1700" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="994" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,6 +111,33 @@
         </mxCell>
         <mxCell id="-BAnb1DK9DFcd0QEzXmj-38" value="+ UpdateGeometry(int): void   //主要绘制UI的函数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-BAnb1DK9DFcd0QEzXmj-34" vertex="1">
           <mxGeometry y="60" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2KKpLDcR96IpIq7rCUSi-1" value="UIFont" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KKpLDcR96IpIq7rCUSi-2" value="MonoBehaviour" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="420" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2KKpLDcR96IpIq7rCUSi-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="2KKpLDcR96IpIq7rCUSi-1" target="2KKpLDcR96IpIq7rCUSi-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="420" as="sourcePoint" />
+            <mxPoint x="970" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2KKpLDcR96IpIq7rCUSi-4" value="Font" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="420" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2KKpLDcR96IpIq7rCUSi-5" value="NGUIText" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KKpLDcR96IpIq7rCUSi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2KKpLDcR96IpIq7rCUSi-6" target="2KKpLDcR96IpIq7rCUSi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2KKpLDcR96IpIq7rCUSi-6" value="UILabel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2KKpLDcR96IpIq7rCUSi-7" value="&amp;nbsp; 查看NGUI架构" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="620" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
