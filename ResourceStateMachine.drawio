@@ -1,1 +1,224 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T08:21:33.821Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="S14ySPXcNiYDO2D7L9E9" version="13.8.5" type="github"><diagram id="poAoHHD4wJXneolooooK" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-18T04:04:36.254Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="fqayGwBl4r7ANrhv9UrB" version="13.9.9" type="github">
+  <diagram id="poAoHHD4wJXneolooooK" name="Page-1">
+    <mxGraphModel dx="2249" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TegShTSiwR75E2xf8N01-50" value="GameStatePredependency" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="360" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-51" value="GameStatePredependency.IGameStateListner" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="550" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-52" value="+ OnStateEnter: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-51" vertex="1">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-53" value="+ OnStateQuit: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-51" vertex="1">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-54" value="+ OnStateUpdate: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-51" vertex="1">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-55" value="+ Free: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-51" vertex="1">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-56" value="MAX_STATE_SINK_NUM&amp;nbsp; //槽位" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="340" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-57" value="MAX_STATE_NUM&amp;nbsp; //状态" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-58" value="UpdateErrorState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="572" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-59" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-58" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-60" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-58" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-61" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-58" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-62" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" parent="1" source="TegShTSiwR75E2xf8N01-58" target="TegShTSiwR75E2xf8N01-51" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-63" value="ShowLoadingPanelState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="615" y="850" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-64" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-63" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-63" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-66" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-63" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-67" value="UpdateFinishState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="940" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-68" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-67" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-67" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-70" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-67" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-71" value="FirstTimeGameState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="585" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-72" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-71" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-71" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-74" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-71" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-75" value="FileExtractState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="920" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-76" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-75" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-77" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-75" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-78" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-75" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-79" value="FileDownloadState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="944" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-80" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-79" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-79" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-82" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-79" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-83" value="ConfigRequestState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="414" y="936" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-84" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-83" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-85" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-83" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-86" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TegShTSiwR75E2xf8N01-83" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-87" value="StateMachineState（GameState.cs）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="240" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-88" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" parent="1" source="TegShTSiwR75E2xf8N01-71" target="TegShTSiwR75E2xf8N01-51" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="750" as="sourcePoint" />
+            <mxPoint x="190" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-89" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" parent="1" source="TegShTSiwR75E2xf8N01-75" target="TegShTSiwR75E2xf8N01-51" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="760" as="sourcePoint" />
+            <mxPoint x="200" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-90" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" parent="1" source="TegShTSiwR75E2xf8N01-67" target="TegShTSiwR75E2xf8N01-51" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="770" as="sourcePoint" />
+            <mxPoint x="210" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-91" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" parent="1" source="TegShTSiwR75E2xf8N01-79" target="TegShTSiwR75E2xf8N01-51" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="780" as="sourcePoint" />
+            <mxPoint x="220" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-92" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" parent="1" source="TegShTSiwR75E2xf8N01-83" target="TegShTSiwR75E2xf8N01-51" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="790" as="sourcePoint" />
+            <mxPoint x="230" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-93" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" parent="1" source="TegShTSiwR75E2xf8N01-63" target="TegShTSiwR75E2xf8N01-51" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="635.1111111111111" as="sourcePoint" />
+            <mxPoint x="460" y="630.0555555555557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-94" value="UpdateControllerEx&lt;br&gt;初始化具体的状态机&lt;br&gt;负责具体转态的转换" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="380" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-95" value="GameStateMachine&lt;br&gt;维护转态" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="440" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-96" value="xClientProxy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="220" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-97" value="" style="curved=1;endArrow=classic;html=1;" parent="1" source="TegShTSiwR75E2xf8N01-96" target="TegShTSiwR75E2xf8N01-94" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="310" as="sourcePoint" />
+            <mxPoint x="20" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="270" />
+              <mxPoint x="-10" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TegShTSiwR75E2xf8N01-98" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TegShTSiwR75E2xf8N01-97" vertex="1" connectable="0">
+          <mxGeometry x="0.0791" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GtW2HttxMYq7Off1ql-g-1" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1" source="TegShTSiwR75E2xf8N01-96" target="GtW2HttxMYq7Off1ql-g-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="273.18181818181824" as="sourcePoint" />
+            <mxPoint x="-350" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-290" y="268" />
+              <mxPoint x="-330" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GtW2HttxMYq7Off1ql-g-2" value="Update流程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GtW2HttxMYq7Off1ql-g-1">
+          <mxGeometry x="0.0791" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GtW2HttxMYq7Off1ql-g-3" value="&amp;nbsp;UpdateControllerEx.Instance.Update(deltaTime);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-503" y="410" width="273" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GtW2HttxMYq7Off1ql-g-4" value="GameStateMachine.Update(deltaTime);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="510" width="273" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GtW2HttxMYq7Off1ql-g-5" value="&lt;div&gt;StateMachineState.Excute(elapse_time);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="610" width="273" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GtW2HttxMYq7Off1ql-g-6" value="&lt;div&gt;RunExcuteFunction&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="700" width="273" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GtW2HttxMYq7Off1ql-g-7" value="" style="curved=1;endArrow=classic;html=1;entryX=0.007;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GtW2HttxMYq7Off1ql-g-6" target="GtW2HttxMYq7Off1ql-g-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-600" y="820" as="sourcePoint" />
+            <mxPoint x="-610" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-560" y="850" />
+              <mxPoint x="-640" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
