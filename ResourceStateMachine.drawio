@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T13:30:40.698Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="YIjavQkgolewwJeVv-5H" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T13:43:11.447Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="WRP1Vxnf90IypLlAk0dt" version="13.10.2" type="github">
   <diagram id="poAoHHD4wJXneolooooK" name="Page-1">
-    <mxGraphModel dx="3076" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3327" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -352,10 +352,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ehXN9OD-bpD-5gohw3rK-45" value="CreateNewLoadQuest" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-555" y="1980" width="120" height="60" as="geometry" />
+          <mxGeometry x="-870" y="2160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehXN9OD-bpD-5gohw3rK-46" value="AddToRequestMap&lt;br&gt;(m_res_request_map)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-355" y="1980" width="120" height="60" as="geometry" />
+          <mxGeometry x="-670" y="2160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ehXN9OD-bpD-5gohw3rK-49" value="DownResInfoEx" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="1530" width="200" height="130" as="geometry" />
@@ -378,17 +378,38 @@
             <mxPoint x="-1241" y="1645.2897526501765" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i07_R7V35CWPJwAr8F6F-2" value="普通更新流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="1760" width="90" height="20" as="geometry" />
+        <mxCell id="i07_R7V35CWPJwAr8F6F-2" value="普通更新流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1654" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="i07_R7V35CWPJwAr8F6F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i07_R7V35CWPJwAr8F6F-3" target="i07_R7V35CWPJwAr8F6F-4">
+        <mxCell id="i07_R7V35CWPJwAr8F6F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i07_R7V35CWPJwAr8F6F-3" target="i07_R7V35CWPJwAr8F6F-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i07_R7V35CWPJwAr8F6F-3" value="OnStateEnter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="1810" width="120" height="60" as="geometry" />
+        <mxCell id="i07_R7V35CWPJwAr8F6F-3" value="OnStateEnter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="495" y="1704" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i07_R7V35CWPJwAr8F6F-4" value="AddBatchDownload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1810" width="120" height="60" as="geometry" />
+        <mxCell id="i07_R7V35CWPJwAr8F6F-4" value="AddBatchDownload" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="675" y="1704" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEdZt6myIPDN67QOjYhQ-1" value="边玩边下载的流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="1730" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEdZt6myIPDN67QOjYhQ-2" value="&lt;span style=&quot;font-weight: 700&quot;&gt;ConfigRequestState&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEdZt6myIPDN67QOjYhQ-3" value="MobileConfigCallBack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEdZt6myIPDN67QOjYhQ-4" value="CommonProxy.bPlayResDownload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1920" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEdZt6myIPDN67QOjYhQ-5" value="ClientInfo.bPlayResDownload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1920" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEdZt6myIPDN67QOjYhQ-6" value="LevelForRequest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="2020" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEdZt6myIPDN67QOjYhQ-8" value="StartMobileConfigReqGet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-308.5" y="2120" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
