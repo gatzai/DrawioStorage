@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T13:48:00.635Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="rUZ1iPZm_6CsGnnq8w6V" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-19T14:04:53.527Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="hiMfbnBiwtRmJRxBq-yP" version="14.1.1" type="github">
   <diagram id="Lafy5iaJPpKN_NIYAcs5" name="Page-1">
-    <mxGraphModel dx="2694" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2134" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
         <mxCell id="IaznOFFQn422G-CRZnzF-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IaznOFFQn422G-CRZnzF-37" target="IaznOFFQn422G-CRZnzF-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IaznOFFQn422G-CRZnzF-37" value="ProcessOnce//其实是不是只是用来监控实时日志的" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IaznOFFQn422G-CRZnzF-37" value="ProcessOnce//其实是只是用来监控实时日志的" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="190" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IaznOFFQn422G-CRZnzF-40" value="OnRecv" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -200,7 +200,7 @@
           <mxGeometry x="-390" y="780" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Wc1OjsWBb3YqrjpZgXPl-30" value="Query工具：&lt;br&gt;执行shell命令，translate.sh，传入的参数是这个sh脚本的执行参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="450" width="147" height="80" as="geometry" />
+          <mxGeometry x="553" y="430" width="147" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
