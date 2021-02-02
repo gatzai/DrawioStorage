@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T15:06:46.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="WOe6CJ8VvmNNyx9_MdiG" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T15:43:28.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="ufkGuBQd64NKXKNLWCGc" version="14.1.2" type="github">
   <diagram id="1kL49jXiPNaZoPvbJWT0" name="Page-1">
-    <mxGraphModel dx="1673" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ensWsQoeCzXcLXxpMhg5-1" value="UniversalRenderPipeline" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="970" y="-90" width="160" height="86" as="geometry" />
+          <mxGeometry x="860" y="-140" width="320" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ensWsQoeCzXcLXxpMhg5-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ensWsQoeCzXcLXxpMhg5-1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ensWsQoeCzXcLXxpMhg5-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ensWsQoeCzXcLXxpMhg5-1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ensWsQoeCzXcLXxpMhg5-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ensWsQoeCzXcLXxpMhg5-1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="ensWsQoeCzXcLXxpMhg5-4" value="+ RenderSingleCamera(...): static void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ensWsQoeCzXcLXxpMhg5-1">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ensWsQoeCzXcLXxpMhg5-6" value="ScriptableRendererFeature" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="690" y="300" width="270" height="190" as="geometry" />
@@ -132,6 +132,9 @@
             <mxPoint x="970" y="250" as="sourcePoint" />
             <mxPoint x="1130" y="250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ensWsQoeCzXcLXxpMhg5-45" value="&lt;h1&gt;URP&lt;/h1&gt;&lt;p&gt;URP的入口文件为UniversalRenderPiplineAsset.cs,在该文件中，进行了一系列初始化操作,核心是CreatePipeline函数，创建了渲染管线，默认渲染的render为继承至ScriptableRenderer的ForwardRenderer，初始化默认渲染管线UniversalRenderPipeline。&lt;/p&gt;&lt;p&gt;UniversalRenderPipeline首先初始化一系列渲染参数,如shader的全局变量等&lt;/p&gt;&lt;p&gt;初始化完毕后，unity会每帧自动调用UniversalRenderPipeline的Render()函数&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-550" width="510" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
