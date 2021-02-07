@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-07T02:49:21.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="s-Hl6gTGyoi7GAGkw_Xr" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-07T02:55:16.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="PqnQ-wsmrFvLwA_JlXAP" version="14.2.9" type="github">
   <diagram id="1kL49jXiPNaZoPvbJWT0" name="Page-1">
-    <mxGraphModel dx="4024" dy="3661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4498" dy="3926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -301,7 +301,7 @@
           <mxGeometry x="-1200" y="-92" width="633" height="42" as="geometry" />
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;dashed=1;strokeWidth=3;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="-370" y="580" width="20" height="570" as="geometry" />
+          <mxGeometry x="-370" y="580" width="20" height="670" as="geometry" />
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-2" value="&lt;h2&gt;camera.TryGetCullingParameters&lt;/h2&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="-350" y="660" width="300" height="50" as="geometry" />
@@ -310,8 +310,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-670" y="1010" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-373" y="1140" />
-              <mxPoint x="-430" y="1140" />
+              <mxPoint x="-373" y="1240" />
+              <mxPoint x="-430" y="1240" />
               <mxPoint x="-430" y="680" />
             </Array>
             <mxPoint x="-350" y="1110" as="sourcePoint" />
@@ -336,8 +336,8 @@
         <mxCell id="yIKvSXObPyEovHFVHJKR-8" value="&lt;h2&gt;InitializeRenderingData&lt;/h2&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="-350" y="930" width="350" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yIKvSXObPyEovHFVHJKR-9" value="&lt;h3&gt;renderer.Setup&lt;br&gt;renderer.Execute&lt;br&gt;context.ExecuteCommandBuffer(cmd)&lt;br&gt;CommandBufferPool.Release(cmd)&lt;br&gt;context.Submit()&lt;/h3&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="1010" width="350" height="110" as="geometry" />
+        <mxCell id="yIKvSXObPyEovHFVHJKR-9" value="&lt;h2&gt;renderer.Setup&lt;/h2&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="1010" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-10" value="CameraData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#B2C9AB;" parent="1" vertex="1">
           <mxGeometry x="-670" y="1290" width="200" height="702" as="geometry">
@@ -429,7 +429,7 @@
           <mxGeometry x="-30" y="-950" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-42" value="ForwardRenderer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="790" y="1220" width="160" height="268" as="geometry" />
+          <mxGeometry x="1010" y="1170" width="160" height="268" as="geometry" />
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-43" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -505,12 +505,12 @@
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-58" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeColor=#788AA3;fontColor=#46495D;" parent="1" source="yIKvSXObPyEovHFVHJKR-42" target="yIKvSXObPyEovHFVHJKR-59" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1380" y="1136" as="sourcePoint" />
-            <mxPoint x="1140" y="1080" as="targetPoint" />
+            <mxPoint x="1600" y="1086" as="sourcePoint" />
+            <mxPoint x="1360" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-59" value="&lt;font color=&quot;#990000&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;ScriptableRenderer&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;dashed=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" parent="1" vertex="1">
-          <mxGeometry x="760" y="1030" width="220" height="60" as="geometry" />
+          <mxGeometry x="680" y="1270" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-60" value="&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;dashed=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B3B3B3;" parent="1" vertex="1">
           <mxGeometry x="-30" y="-760" width="140" height="60" as="geometry" />
@@ -523,6 +523,35 @@
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-64" value="&lt;h3&gt;可以读到源码的模块&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;labelPosition=center;verticalLabelPosition=middle;textDirection=ltr;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="150" y="-720" width="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mLH2hDlxygTFijSkklE9-10" value="&lt;h3&gt;context.ExecuteCommandBuffer(cmd)&lt;br&gt;CommandBufferPool.Release(cmd)&lt;br&gt;context.Submit()&lt;/h3&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="1140" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mLH2hDlxygTFijSkklE9-11" value="&lt;h2&gt;renderer.Execute&lt;/h2&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;arcSize=25;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="1070" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mLH2hDlxygTFijSkklE9-12" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1" source="yIKvSXObPyEovHFVHJKR-9" target="yIKvSXObPyEovHFVHJKR-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1240" as="sourcePoint" />
+            <mxPoint x="357.83000000000004" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="1180" />
+              <mxPoint x="687.83" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mLH2hDlxygTFijSkklE9-13" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1" source="mLH2hDlxygTFijSkklE9-11" target="yIKvSXObPyEovHFVHJKR-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-104" y="1060" as="sourcePoint" />
+            <mxPoint x="750" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="1260" />
+              <mxPoint x="560" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mLH2hDlxygTFijSkklE9-14" value="ForwardRenderer本身并未实现Execute()函数&lt;br&gt;所以脚本会自动调用ScriptableRenderer的Execute()函数" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1200" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
