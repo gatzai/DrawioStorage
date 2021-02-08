@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-07T02:55:16.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="PqnQ-wsmrFvLwA_JlXAP" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-08T14:45:12.009Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="z2mT2F4vIGk0CU_Rs85I" version="14.2.9" type="github">
   <diagram id="1kL49jXiPNaZoPvbJWT0" name="Page-1">
-    <mxGraphModel dx="4498" dy="3926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="3075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,16 +205,16 @@
         </mxCell>
         <mxCell id="Z0iiYLAd8qAoIaL4rKaR-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeColor=#788AA3;fontColor=#46495D;" parent="1" source="Z0iiYLAd8qAoIaL4rKaR-5" target="Z0iiYLAd8qAoIaL4rKaR-6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-610" y="-1020" as="sourcePoint" />
-            <mxPoint x="-610" y="-1130" as="targetPoint" />
+            <mxPoint x="-850" y="-1017.5" as="sourcePoint" />
+            <mxPoint x="-850" y="-1127.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z0iiYLAd8qAoIaL4rKaR-5" value="My Pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="-920" width="120" height="60" as="geometry" />
+          <mxGeometry x="-920" y="-917.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z0iiYLAd8qAoIaL4rKaR-6" value="RenderPipeline" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1" collapsed="1">
-          <mxGeometry x="-680" y="-1130" width="120" height="26" as="geometry">
-            <mxRectangle x="-700" y="-1130" width="160" height="86" as="alternateBounds" />
+          <mxGeometry x="-920" y="-1127.5" width="120" height="26" as="geometry">
+            <mxRectangle x="-920" y="-1127.5" width="160" height="86" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z0iiYLAd8qAoIaL4rKaR-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" parent="Z0iiYLAd8qAoIaL4rKaR-6" vertex="1">
@@ -228,15 +228,15 @@
         </mxCell>
         <mxCell id="Z0iiYLAd8qAoIaL4rKaR-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeColor=#788AA3;fontColor=#46495D;" parent="1" source="Z0iiYLAd8qAoIaL4rKaR-11" target="Z0iiYLAd8qAoIaL4rKaR-12" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-280" y="-1020" as="sourcePoint" />
-            <mxPoint x="-280" y="-1130" as="targetPoint" />
+            <mxPoint x="-520" y="-1017.5" as="sourcePoint" />
+            <mxPoint x="-520" y="-1127.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Z0iiYLAd8qAoIaL4rKaR-11" value="My Pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="-910" width="120" height="60" as="geometry" />
+          <mxGeometry x="-570" y="-907.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z0iiYLAd8qAoIaL4rKaR-12" value="RenderPipelineAsset" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="-1130" width="160" height="86" as="geometry">
+          <mxGeometry x="-590" y="-1127.5" width="160" height="86" as="geometry">
             <mxRectangle x="-350" y="-1130" width="120" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -440,25 +440,25 @@
         <mxCell id="yIKvSXObPyEovHFVHJKR-45" value="+ Setup(ScriptableRenderContext,ref RenderingData): void" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;fillColor=#EF767A;fontStyle=2" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-1" value="+ SetupBackbufferFormat(type): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" vertex="1" parent="yIKvSXObPyEovHFVHJKR-42">
+        <mxCell id="mLH2hDlxygTFijSkklE9-1" value="+ SetupBackbufferFormat(type): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-2" value="+ CreateCameraRenderTarget(ScriptableRenderContext,ref CameraData): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" vertex="1" parent="yIKvSXObPyEovHFVHJKR-42">
+        <mxCell id="mLH2hDlxygTFijSkklE9-2" value="+ CreateCameraRenderTarget(ScriptableRenderContext,ref CameraData): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-5" value="+ SetupLights(ScriptableRenderContext,ref RenderingData): void" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;fillColor=#EF767A;fontStyle=2" vertex="1" parent="yIKvSXObPyEovHFVHJKR-42">
+        <mxCell id="mLH2hDlxygTFijSkklE9-5" value="+ SetupLights(ScriptableRenderContext,ref RenderingData): void" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;fillColor=#EF767A;fontStyle=2" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="138" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-6" value="+ SetupCullingParameters(ref ScriptableCullingParameters,ref CameraData): void" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;fillColor=#EF767A;fontStyle=2" vertex="1" parent="yIKvSXObPyEovHFVHJKR-42">
+        <mxCell id="mLH2hDlxygTFijSkklE9-6" value="+ SetupCullingParameters(ref ScriptableCullingParameters,ref CameraData): void" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;fillColor=#EF767A;fontStyle=2" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-7" value="+ FinishRendering(CommandBuffer): void" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;fillColor=#EF767A;fontStyle=2" vertex="1" parent="yIKvSXObPyEovHFVHJKR-42">
+        <mxCell id="mLH2hDlxygTFijSkklE9-7" value="+ FinishRendering(CommandBuffer): void" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;fillColor=#EF767A;fontStyle=2" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="190" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-8" value="+ RequiresIntermediateColorTexture(type): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" vertex="1" parent="yIKvSXObPyEovHFVHJKR-42">
+        <mxCell id="mLH2hDlxygTFijSkklE9-8" value="+ RequiresIntermediateColorTexture(type): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="216" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-9" value="+ CanCopyDepth(type): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" vertex="1" parent="yIKvSXObPyEovHFVHJKR-42">
+        <mxCell id="mLH2hDlxygTFijSkklE9-9" value="+ CanCopyDepth(type): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#46495D;" parent="yIKvSXObPyEovHFVHJKR-42" vertex="1">
           <mxGeometry y="242" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yIKvSXObPyEovHFVHJKR-46" value="" style="curved=1;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yIKvSXObPyEovHFVHJKR-38" target="yIKvSXObPyEovHFVHJKR-9" edge="1">
@@ -524,13 +524,13 @@
         <mxCell id="yIKvSXObPyEovHFVHJKR-64" value="&lt;h3&gt;可以读到源码的模块&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;labelPosition=center;verticalLabelPosition=middle;textDirection=ltr;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="150" y="-720" width="130" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-10" value="&lt;h3&gt;context.ExecuteCommandBuffer(cmd)&lt;br&gt;CommandBufferPool.Release(cmd)&lt;br&gt;context.Submit()&lt;/h3&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;" vertex="1" parent="1">
+        <mxCell id="mLH2hDlxygTFijSkklE9-10" value="&lt;h3&gt;context.ExecuteCommandBuffer(cmd)&lt;br&gt;CommandBufferPool.Release(cmd)&lt;br&gt;context.Submit()&lt;/h3&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="-350" y="1140" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-11" value="&lt;h2&gt;renderer.Execute&lt;/h2&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;arcSize=25;" vertex="1" parent="1">
+        <mxCell id="mLH2hDlxygTFijSkklE9-11" value="&lt;h2&gt;renderer.Execute&lt;/h2&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;dashed=1;strokeWidth=3;fontColor=#46495D;arcSize=25;" parent="1" vertex="1">
           <mxGeometry x="-350" y="1070" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-12" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1" source="yIKvSXObPyEovHFVHJKR-9" target="yIKvSXObPyEovHFVHJKR-45">
+        <mxCell id="mLH2hDlxygTFijSkklE9-12" value="" style="curved=1;endArrow=classic;html=1;" parent="1" source="yIKvSXObPyEovHFVHJKR-9" target="yIKvSXObPyEovHFVHJKR-45" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="1240" as="sourcePoint" />
             <mxPoint x="357.83000000000004" y="1080" as="targetPoint" />
@@ -540,7 +540,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-13" value="" style="curved=1;endArrow=classic;html=1;" edge="1" parent="1" source="mLH2hDlxygTFijSkklE9-11" target="yIKvSXObPyEovHFVHJKR-59">
+        <mxCell id="mLH2hDlxygTFijSkklE9-13" value="" style="curved=1;endArrow=classic;html=1;" parent="1" source="mLH2hDlxygTFijSkklE9-11" target="yIKvSXObPyEovHFVHJKR-59" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-104" y="1060" as="sourcePoint" />
             <mxPoint x="750" y="970" as="targetPoint" />
@@ -550,8 +550,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mLH2hDlxygTFijSkklE9-14" value="ForwardRenderer本身并未实现Execute()函数&lt;br&gt;所以脚本会自动调用ScriptableRenderer的Execute()函数" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;fillColor=#CCCCFF;" vertex="1" parent="1">
+        <mxCell id="mLH2hDlxygTFijSkklE9-14" value="ForwardRenderer本身并未实现Execute()函数&lt;br&gt;所以脚本会自动调用ScriptableRenderer的Execute()函数" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;fillColor=#CCCCFF;" parent="1" vertex="1">
           <mxGeometry x="130" y="1200" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OIl5EmK_QTX3-WMlNFYc-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="Z0iiYLAd8qAoIaL4rKaR-11" target="Z0iiYLAd8qAoIaL4rKaR-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-840" y="-1030" as="sourcePoint" />
+            <mxPoint x="-680" y="-1030" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
