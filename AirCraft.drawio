@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T02:18:39.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="sIMt_fhfb85-jvwNmJwK" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-03T02:35:47.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="CK0HS7V_QWSF96ywSEB5" version="14.2.9" type="github">
   <diagram id="MWPyDmJmrKoqFWtrNjCP" name="Page-1">
-    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,8 +31,140 @@
         <mxCell id="vUY6JOF9hx8H9eje4FmG-12" value="&lt;h1&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Aircraft&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;飞行器的基本动力模型。&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="130" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="vUY6JOF9hx8H9eje4FmG-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;游戏中通常都会使用简单的模型来模拟飞行器的原理。所以也不会太复杂&lt;br&gt;航空表面：一些对空气动力最主要影响的部件。分为可控表面和不可控表面，可控表面指通过控制可改变受力形态的表面，&lt;br&gt;不可控表面指和机体连为一体的面，无法发生形态变化。这种变化一般能改变飞行器受力结构的变化。&lt;br&gt;&lt;br&gt;刚体：只有一个Rigidbody&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="30" y="550" width="770" height="100" as="geometry" />
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-13" value="&lt;font style=&quot;font-size: 14px&quot;&gt;游戏中通常都会使用简单的模型来模拟飞行器的原理。所以也不会太复杂&lt;br&gt;&lt;br&gt;航空表面（AeroSurface）：一些对空气动力最主要影响的部件。分为可控表面和不可控表面，可控表面指通过控制可改变受力形态的表面，&lt;br&gt;不可控表面指和机体连为一体的面，无法发生形态变化。这种变化一般能改变飞行器受力结构的变化。&lt;br&gt;&lt;br&gt;刚体：只有一个Rigidbody&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="30" y="545" width="880" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-14" value="&lt;span style=&quot;font-size: 14px&quot;&gt;AeroSurface&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;fontColor=#999999;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="840" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-15" value="&lt;span style=&quot;font-size: 14px&quot;&gt;AeroSurface&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;fontColor=#999999;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="840" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-16" value="&lt;span style=&quot;font-size: 14px&quot;&gt;AeroSurface&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;fontColor=#999999;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="840" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-17" value="&lt;span style=&quot;font-size: 14px&quot;&gt;AeroSurface&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;fontColor=#999999;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="840" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-21" value="&lt;span style=&quot;font-size: 14px&quot;&gt;AeroSurface&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;fontColor=#999999;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1030" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-22" value="&lt;span style=&quot;font-size: 14px&quot;&gt;AeroSurface&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;fontColor=#999999;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1030" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-24" value="&lt;span style=&quot;background-color: rgb(204 , 204 , 255)&quot;&gt;AeroSurface&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCCCFF;fontColor=#999999;align=center;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="136.75" y="840" width="126.5" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-25" value="&lt;span style=&quot;background-color: rgb(204 , 204 , 255)&quot;&gt;AeroSurface&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCCCFF;fontColor=#999999;align=center;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="148.38" y="950" width="103.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-26" value="&lt;span style=&quot;background-color: rgb(204 , 204 , 255)&quot;&gt;AeroSurface&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCCCFF;fontColor=#999999;align=center;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="178.38" y="1034.19" width="91.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="990" as="sourcePoint" />
+            <mxPoint x="44.70588235294122" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="990" />
+              <mxPoint x="90" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="1010" as="sourcePoint" />
+            <mxPoint x="136.75444444444435" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="1010" />
+              <mxPoint x="180" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700.06" y="970" as="sourcePoint" />
+            <mxPoint x="251.62720000000013" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550.06" y="970" />
+              <mxPoint x="280.06" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="787" y="960" as="sourcePoint" />
+            <mxPoint x="360" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="637.4399999999999" y="960" />
+              <mxPoint x="367.44" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-37" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1010" as="sourcePoint" />
+            <mxPoint x="273" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="1010" />
+              <mxPoint x="390" y="1164" />
+              <mxPoint x="306.95" y="1164.19" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="1090" as="sourcePoint" />
+            <mxPoint x="230.00142857142862" y="1069.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="1090" />
+              <mxPoint x="540" y="1200" />
+              <mxPoint x="276.95" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="982" as="sourcePoint" />
+            <mxPoint x="209.99720000000013" y="871.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="508.43" y="981.5" />
+              <mxPoint x="238.43" y="981.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="1004" as="sourcePoint" />
+            <mxPoint x="192.00000000000023" y="949.9968852459019" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="1004" />
+              <mxPoint x="240" y="1004" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontColor=#999999;" edge="1" parent="1" target="vUY6JOF9hx8H9eje4FmG-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="1050" as="sourcePoint" />
+            <mxPoint x="148.61142857142863" y="1049.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1050" />
+              <mxPoint x="465.56" y="1180" />
+              <mxPoint x="195.56" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-46" value="&lt;font color=&quot;#333333&quot;&gt;AircraftPhysics&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCFF;fontColor=#999999;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="950" width="90" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-48" value="AirplaneController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCFF;align=center;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="850" y="980" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-49" value="AIController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCFF;align=center;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1010" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vUY6JOF9hx8H9eje4FmG-50" value="HumanController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCFF;align=center;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1034.19" width="120" height="65.81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
