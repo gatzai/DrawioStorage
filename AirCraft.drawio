@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T16:14:07.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="yGKd_ba-VcHyXLTqWjQe" version="14.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-29T13:37:13.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="fNO0WUusTJXXkH0fXExD" version="14.5.6" type="github">
   <diagram id="MWPyDmJmrKoqFWtrNjCP" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,23 +166,26 @@
         <mxCell id="vUY6JOF9hx8H9eje4FmG-50" value="HumanController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCFF;align=center;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1034.19" width="120" height="65.81" as="geometry" />
         </mxCell>
-        <mxCell id="rYaX6JQOq48nS_y5t-E1-1" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="vUY6JOF9hx8H9eje4FmG-16" target="rYaX6JQOq48nS_y5t-E1-4">
+        <mxCell id="rYaX6JQOq48nS_y5t-E1-1" value="" style="endArrow=classic;html=1;" parent="1" source="vUY6JOF9hx8H9eje4FmG-16" target="rYaX6JQOq48nS_y5t-E1-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="820" as="sourcePoint" />
             <mxPoint x="510" y="785.909090909091" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rYaX6JQOq48nS_y5t-E1-4" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;感覺這個脚本沒有什麽Mono相關的東西，只是負責計算而已。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontColor=#46495D;arcSize=16;fillColor=#A8C47E;" vertex="1" parent="1">
+        <mxCell id="rYaX6JQOq48nS_y5t-E1-4" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;感覺這個脚本沒有什麽Mono相關的東西，只是負責計算而已。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontColor=#46495D;arcSize=16;fillColor=#A8C47E;" parent="1" vertex="1">
           <mxGeometry x="520" y="670" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rYaX6JQOq48nS_y5t-E1-5" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;进行了主要的物理计算&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontColor=#46495D;arcSize=16;fillColor=#B3D186;" vertex="1" parent="1">
+        <mxCell id="rYaX6JQOq48nS_y5t-E1-5" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;进行了主要的物理计算&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontColor=#46495D;arcSize=16;fillColor=#B3D186;" parent="1" vertex="1">
           <mxGeometry x="760" y="750" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rYaX6JQOq48nS_y5t-E1-6" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="vUY6JOF9hx8H9eje4FmG-46" target="rYaX6JQOq48nS_y5t-E1-5">
+        <mxCell id="rYaX6JQOq48nS_y5t-E1-6" value="" style="endArrow=classic;html=1;" parent="1" source="vUY6JOF9hx8H9eje4FmG-46" target="rYaX6JQOq48nS_y5t-E1-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620.0014285714287" y="911.11" as="sourcePoint" />
             <mxPoint x="751.4300000000001" y="859.9988888888889" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JOCcgiaOZ7DNHsvtdtto-1" value="力矩：表示力对物体作用时所产生的转动效应的物理量&lt;br&gt;力和力臂的乘积叫做力对转动轴的力矩，即：M=F*L&lt;br&gt;&lt;br&gt;角速度：&lt;span style=&quot;color: rgb(18 , 18 , 18) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif ; font-size: 15px ; background-color: rgb(255 , 255 , 255)&quot;&gt;单位时间里走过的弧度&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;其实代码没啥，难度就在物理计算&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="941" y="280" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
